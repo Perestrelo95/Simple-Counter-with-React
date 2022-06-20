@@ -1,12 +1,88 @@
+@import '../styles/index.css';
 
-/* 
+.bigCounter{
+background-color: black;
+    text-align: center;
+     height:500px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.bigCounter div{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20x;
+    height: 50px;
+    background-color: #101010;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
 
-*/
+div.four {
+    height: 50px;
+    background-color: black;
+    color:white;
+    box-shadow: inset 0 0 5px orange ,0 0 10px orange;
+    border: 2px solid white;
+    text-align: center;
+    text-shadow: inset 0 0 10px red,0 0 10px red;
+    animation: lightFast 1000s infinite backwards steps(10);
+    border-radius: 20%;
+    
+
+}
+div.one{
+    height: 50px;
+    background-color: black;
+    color:white;
+    box-shadow: inset 0 0 5px orange ,0 0 10px orange;
+    border: 2px solid white;
+    text-align: center;
+    text-shadow: inset 0 0 10px red,0 0 10px red;
+    animation: lightFast 1s infinite backwards steps(10);
+    border-radius: 20%;
+
+}
+div.two {
+    height: 50px;
+    background-color: black;
+    color:white;
+    box-shadow: inset 0 0 5px orange ,0 0 10px orange;
+    border: 2px solid white;
+    text-align: center;
+    text-shadow: inset 0 0 10px red,0 0 10px red;
+    animation: lightFast 10s infinite backwards steps(10);
+    border-radius: 20%;
+    
+
+}
+div.three {
+    height: 50px;
+    background-color: black;
+    color:white;
+    box-shadow:  inset 0 0 5px orange ,0 0 10px orange;
+    border: 2px solid white;
+    text-align: center;
+    text-shadow: inset 0 0 10px red,0 0 10px red;
+    animation: lightFast 100s infinite backwards steps(10);
+    border-radius: 20%;
+
+}
+div.calendar{
+    height: 50px;
+    background-color: black;
+    color:white;
+    box-shadow: inset 0 0 5px blue ,0 0 10px blue, 0 0 30px blue;
+    border: 2px solid white;
+    text-align: center;
+    text-shadow: inset 0 0 10px blue,0 0 10px blue;
+    border-radius: 20%;
+    
+}
+@keyframes lightFast{
+    to{
+        border-color: black;
+        box-shadow:none;
+    
+    }
+}
